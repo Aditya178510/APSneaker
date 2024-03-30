@@ -1,0 +1,623 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    a{
+        text-decoration: none;
+    }
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom 50%;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
+
+.links a {
+    color: white;
+    padding: 14px 16px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: grey;
+}
+
+
+
+
+.we {
+    background-attachment: fixed;
+    background-image: url(./Uppersection_images/sneakers_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -30px;
+
+}
+.blur{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+     backdrop-filter: blur(3.5px);
+     -webkit-backdrop-filter: blur(3.5px);
+}
+.we p {
+    text-align: center;
+}
+
+.logo {
+    position: relative;
+    top: -120px;
+    color: white;
+    font-size: 130px;
+    font-family: 'Darumadrop One';
+    text-decoration: line-through;
+    margin-top: 10px;
+}
+
+.bs {
+    position: relative;
+    backdrop-filter: blur(2px);
+    top: -120px;
+    color: white;
+    font-size: 70px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.we button {
+    position: relative;
+    top: -120px;
+    border: none;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    width: 190px;
+    margin-top: 20px;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.we button:hover {
+    background-color: black;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.men {
+    background-image: url(./Uppersection_images/m1c.jpg);
+    background-size: cover;
+    background-position-y: -50px;
+    height: 650px;
+    width: 50%;
+    overflow: hidden;
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.men a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 225px;
+    font-family: 'Aclonica';
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.men:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+    a {
+        color: red;
+    }
+}
+
+.women {
+    background-image: url(./Uppersection_images/w1.jpg);
+    background-size: cover;
+    background-position-y: -150px;
+    height: 650px;
+    width: 50%;
+    overflow: hidden;
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.women a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 225px;
+    font-family: 'Aclonica';
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.women:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+    a {
+        color: red;
+    }
+}
+
+.scontent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    width: 100%;
+    background-image: url(./Uppersection_images/s1.jpg);
+    background-size: cover;
+    background-repeat: round;
+    height: 300px;
+    width: 100%;
+}
+
+.sale {
+    background-color: black;
+}
+
+.sale p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Audiowide';
+    padding: 18px 16px;
+}
+
+.sale button {
+    height: 50px;
+    width: 130px;
+    color: white;
+    background-color: gray;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.sale button:hover {
+    background-color: black;
+}
+
+.shoes {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 200px;
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 50px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+.so1 {
+    background-image: url(./Content_images/shoe1.png);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 90px;
+    transition: all .4s ease-in-out;
+    cursor: default;
+}
+
+.so1 a {
+    text-decoration: none;
+}
+
+.so1 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 240px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.so1:hover {
+    transform: scale(1.05);
+
+    .so1 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.so1 h3:hover {
+    opacity: 0.5;
+}
+
+/*For second shoe*/
+.so2 {
+    background-image: url(./Content_images/shoe2.png);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 90px;
+    transition: all .4s ease-in-out;
+    cursor: default;
+}
+
+.so2 a {
+    text-decoration: none;
+}
+
+.so2 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 240px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.so2:hover {
+    transform: scale(1.05);
+
+    .so1 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.so2 h3:hover {
+    opacity: 0.5;
+}
+
+/*For third shoe*/
+.so3 {
+    background-image: url(./Content_images/shoe3.png);
+    background-position-y: -4px;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 90px;
+    transition: all .4s ease-in-out;
+    cursor: default;
+}
+
+.so3 a {
+    text-decoration: none;
+}
+
+.so3 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 240px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.so3:hover {
+    transform: scale(1.05);
+
+    .so3 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.so3 h3:hover {
+    opacity: 0.5;
+}
+
+.span {
+    height: 2px;
+    width: 100%;
+}
+
+@media screen and (max-width:724px) {
+    .span {
+        display: none;
+    }
+
+}
+
+/*For fourth shoe*/
+.so4 {
+    background-image: url(./Content_images/shoe4.png);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 90px;
+    transition: all .4s ease-in-out;
+    cursor: default;
+}
+
+.so4 a {
+    text-decoration: none;
+}
+
+.so4 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 240px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.so4:hover {
+    transform: scale(1.05);
+
+    .so3 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.so4 h3:hover {
+    opacity: 0.5;
+}
+
+/*For fifth shoe*/
+.so5 {
+    background-image: url(./Content_images/shoe5.png);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 90px;
+    transition: all .4s ease-in-out;
+    cursor: default;
+}
+
+.so5 a {
+    text-decoration: none;
+}
+
+.so5 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 240px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.so5:hover {
+    transform: scale(1.05);
+
+    .so3 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.so5 h3:hover {
+    opacity: 0.5;
+}
+
+/*For sixth shoe*/
+.so6 {
+    background-image: url(./Content_images/shoe6.png);
+    background-position-y: -4px;
+    background-color: white;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 90px;
+    transition: all .4s ease-in-out;
+    cursor: default;
+}
+
+.so6 a {
+    text-decoration: none;
+}
+
+.so6 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 240px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.so6:hover {
+    transform: scale(1.04);
+
+    .so3 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.so6 h3:hover {
+    opacity: 0.5;
+}
+
+footer {
+    min-height: 300px;
+    width: 100%;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: space-evenly;
+}
+.one{
+    position: relative;
+    top: -90px;
+    margin-bottom: 60px;
+}
+.add {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.cont {
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.name {
+    height: 25px;
+    width: 250px;
+    border: 2px solid white;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+input[type="submit"] {
+    border: none;
+    position: relative;
+    font-size: 15px;
+    left: 360px;
+    padding: 8px;
+    width: 100px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#txt {
+    height: 25px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    height: 119.5px;
+    width: 177px;
+    resize: none;
+    margin-left: 2px;
+    font-size: 15px;
+}
+
+.email {
+    height: 25px;
+    width: 250px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.phone {
+    height: 25px;
+    width: 250px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.join {
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.email1 {
+    height: 30px;
+    width: 250px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.join input[type="submit"] {
+    border: none;
+    position: relative;
+    left: 110px;
+    padding: 8px;
+    width: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.join p{
+    font-size: 20px;
+}
+.copy{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}

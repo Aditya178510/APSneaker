@@ -1,0 +1,269 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    
+    background-attachment: fixed;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
+
+.links a {
+    color: white;
+    padding: 14px 16px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: grey;
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+}
+.head p{
+    margin-left: 15px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.contact{
+    min-height: 500px;
+    width: 100%;
+    background-color: white;
+}
+.con {
+    color: black;
+    border: none;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.con h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.con p{
+    font-size: 18px;
+    line-height:1;
+}
+.con a{
+    color: black;
+    text-decoration: underline black;
+}
+.con .name {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid black;
+    color: black;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+.con input[type="submit"] {
+    border: none;
+    font-size: 15px;
+    position: relative;
+    left: 360px;
+    padding: 8px;
+    width: 100px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.con #txt {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid black;
+    color: black;
+    padding: 5px;
+    background-color: transparent;
+    height: 119.5px;
+    width: 177px;
+    resize: none;
+    margin-left: 2px;
+}
+
+.con .email {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid black;
+    color: black;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+.con .phone {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid black;
+    color: black;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+footer {
+    min-height: 500px;
+    width: 100%;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: space-evenly;
+}
+
+.logo {
+    position: relative;
+    top: -40px;
+    color: white;
+    font-size: 130px;
+    font-family: 'Darumadrop One';
+    text-decoration: line-through;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.add {
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.add p{
+    font-size: 20px;
+}
+.cont {
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.cont .name {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+.cont input[type="submit"] {
+    border: none;
+    font-size: 15px;
+    position: relative;
+    left: 360px;
+    padding: 8px;
+    width: 100px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.cont #txt {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    height: 119.5px;
+    width: 177px;
+    resize: none;
+    margin-left: 2px;
+}
+
+.cont .email {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+.cont .phone {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+.join {
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.join p{
+    font-size: 20px;
+}
+.join .email1 {
+    height: 30px;
+    font-size: 15px;
+    width: 250px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+.join input[type="submit"] {
+    border: none;
+    font-size: 15px;
+    position: relative;
+    left: 110px;
+    padding: 8px;
+    width: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.copy{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+

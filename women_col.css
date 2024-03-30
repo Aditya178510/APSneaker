@@ -1,0 +1,432 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
+
+.links a {
+    color: white;
+    padding: 14px 16px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: grey;
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+}
+.head p{
+    margin-left: 15px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.content{
+    min-height: 800px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.pro{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.products{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 800px;
+    width: 100%;
+    background-color: white;
+   
+}
+.span{
+    height: 2px;
+    width: 100%;
+}
+.product1{
+    background-image: url(./Women_collection/wc1.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 100px;
+    transition: all .5s ease-in-out;
+}
+.product1 a {
+    text-decoration: none;
+}
+
+.product1 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 300px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.product1:hover {
+    transform: scale(1.05);
+
+    .so1 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.product1 h3:hover {
+    opacity: 0.5;
+}
+.product2{
+    background-image: url(./Women_collection/wc2.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 100px;
+    transition: all .5s ease-in-out;
+}
+.product2 a {
+    text-decoration: none;
+}
+
+.product2 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 300px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.product2:hover {
+    transform: scale(1.05);
+
+    .so1 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.product2 h3:hover {
+    opacity: 0.5;
+}
+.product3{
+    background-image: url(./Women_collection/wc3.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 100px;
+    transition: all .5s ease-in-out;
+}
+.product3 a {
+    text-decoration: none;
+}
+
+.product3 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 300px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.product3:hover {
+    transform: scale(1.05);
+
+    .so1 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.product3 h3:hover {
+    opacity: 0.5;
+}
+.product4{
+    background-image: url(./Women_collection/wc4.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 100px;
+    transition: all .5s ease-in-out;
+}
+.product4 a {
+    text-decoration: none;
+}
+
+.product4 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 300px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.product4:hover {
+    transform: scale(1.05);
+
+    .so1 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.product4 h3:hover {
+    opacity: 0.5;
+}
+.product5{
+    background-image: url(./Women_collection/wc5.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 100px;
+    transition: all .5s ease-in-out;
+}
+.product5 a {
+    text-decoration: none;
+}
+
+.product5 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 300px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.product5:hover {
+    transform: scale(1.05);
+
+    .so1 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.product5 h3:hover {
+    opacity: 0.5;
+}
+.product6{
+    background-image: url(./Women_collection/wc6.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 100px;
+    transition: all .5s ease-in-out;
+}
+.product6 a {
+    text-decoration: none;
+}
+
+.product6 h3 {
+    text-align: center;
+    background-color: rgb(255, 69, 69);
+    padding: 10px 10px;
+    color: white;
+    margin-top: 300px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.product6:hover {
+    transform: scale(1.05);
+
+    .so1 a,
+    h3 {
+        opacity: 1;
+    }
+}
+
+.product6 h3:hover {
+    opacity: 0.5;
+}
+
+/*Footer*/
+footer {
+    min-height: 500px;
+    width: 100%;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: space-evenly;
+}
+
+.logo {
+    position: relative;
+    top: -40px;
+    color: white;
+    font-size: 130px;
+    font-family: 'Darumadrop One';
+    text-decoration: line-through;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.add {
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.add p{
+    font-size: 20px;
+}
+
+.cont {
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.cont .name {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+.cont input[type="submit"] {
+    border: none;
+    font-size: 15px;
+    position: relative;
+    left: 360px;
+    padding: 8px;
+    width: 100px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.cont #txt {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    height: 119.5px;
+    width: 177px;
+    resize: none;
+    margin-left: 2px;
+}
+
+.cont .email {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+.cont .phone {
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+.join {
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.join .email1 {
+    height: 30px;
+    font-size: 15px;
+    width: 250px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+.join input[type="submit"] {
+    border: none;
+    font-size: 15px;
+    position: relative;
+    left: 110px;
+    padding: 8px;
+    width: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.copy{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
