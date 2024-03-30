@@ -29,7 +29,7 @@ body {
 .links a {
     color: white;
     padding: 14px 16px;
-    font-size: 22px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     transition: all .3s ease;
@@ -39,9 +39,6 @@ body {
 .links a:hover {
     color: grey;
 }
-
-
-
 
 .we {
     background-attachment: fixed;
